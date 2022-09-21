@@ -9,7 +9,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { HomePage } from './home.page';
 
 import { ButtonComponent } from 'src/app/shared/button/button.component';
-import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.component.module';
+import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
 
 @NgModule({
   imports: [

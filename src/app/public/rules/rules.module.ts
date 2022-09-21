@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { RulesPageRoutingModule } from './rules-routing.module';
 
 import { RulesPage } from './rules.page';
+import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RulesPageRoutingModule
+    RulesPageRoutingModule,
+    WmLogoModule
   ],
   declarations: [RulesPage]
 })
