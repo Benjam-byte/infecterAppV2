@@ -1,5 +1,5 @@
 input{
-  background: #F5F5F5;
+  background: #dddddd;
   border-radius: 28px;
   padding : 10px;
   font-family: 'Cinzel';
@@ -11,5 +11,7 @@ input{
   margin : 10px;
   border: 0px;
   box-shadow: 3px 9px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(87, 87, 87);
 }
 

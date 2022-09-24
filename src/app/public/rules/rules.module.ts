@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { RulesPageRoutingModule } from './rules-routing.module';
 
 import { RulesPage } from './rules.page';
-import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -15,7 +15,7 @@ import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
     FormsModule,
     IonicModule,
     RulesPageRoutingModule,
-    WmLogoModule
+    SharedModule
   ],
   declarations: [RulesPage]
 })

@@ -8,8 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 
-import { ButtonComponent } from 'src/app/shared/button/button.component';
-import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -17,8 +16,8 @@ import { WmLogoModule } from 'src/app/shared/wm-logo/wm-logo.module';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    WmLogoModule
+    SharedModule,
   ],
-  declarations: [HomePage,ButtonComponent]
+  declarations: [HomePage]
 })
 export class HomePageModule {}
