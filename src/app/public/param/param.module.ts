@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ParamPageRoutingModule } from './param-routing.module';
 
 import { ParamPage } from './param.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ParamPageRoutingModule
+    ParamPageRoutingModule,
+    SharedModule
   ],
   declarations: [ParamPage]
 })

@@ -106,6 +106,8 @@ export class BackgroundP5Component implements OnInit {
     const c = document.querySelector('app-background-p5');
     (c as HTMLElement).style.zIndex = '-125';
     (c as HTMLElement).style.position = 'absolute';
+    (c as HTMLElement).style.top = '0px';
+    (c as HTMLElement).style.left = '0px';
   }
 
   draw(p: any) {

@@ -1,9 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>param</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <div>
+    <app-wm-logo></app-wm-logo>
+  </div>
+  <div id="container">
+    <span class="parameter">
+      <label>Fond Animé</label>
+      <input type="checkbox" />
+    </span>
+    <span class="parameter">
+      <label>Son Alarm</label>
+      <input type="checkbox" />
+    </span>
+  </div>
+  <div id="all">
+    <app-button text="Valider" (newClick)="navTo('')"></app-button>
+  </div>
 </ion-content>

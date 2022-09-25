@@ -1,7 +1,6 @@
 <ion-content>
-  <app-background-p5></app-background-p5>
   <div id="logo">
-    <ion-icon id="test" size="large" name="ellipsis-vertical-circle-outline"></ion-icon>
+    <ion-icon id="test" size="large" name="ellipsis-vertical-circle-outline" (click)="navTo('param')"></ion-icon>
   </div>
   <div id="second">
     <app-button text="JOUER" (newClick)="navTo('select-party-param')"></app-button>
