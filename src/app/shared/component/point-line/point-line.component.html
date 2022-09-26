@@ -1,0 +1,9 @@
+<div id="table">
+  <div
+    *ngFor="let element of fakeArray; let index = index "
+    [ngClass]="{
+      pointA: index === actifId,
+      point: !(index === actifId)
+    }"
+  ></div>
+</div>

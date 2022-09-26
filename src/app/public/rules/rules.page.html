@@ -1,5 +1,5 @@
 <app-wm-logo></app-wm-logo>
 
 <ion-content>
-
+  <app-caroussel-card (window:mouseup)="isTouched = false" [rules]="rules" [activDataId]="activDataId"></app-caroussel-card>
 </ion-content>
