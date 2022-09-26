@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GestureService } from 'src/app/shared/services/gesture.service';
 import * as rules from 'src/assets/rules.json';
 import { CarouselDatas } from 'src/app/shared/services/carou-card.service';
@@ -26,6 +26,7 @@ export class RulesPage implements OnInit {
   ngOnInit() {
     this.rules = rules;
     this.obs = this.gestureService.getObsDelta().subscribe(value => {
+      console.log('nsm');
       if(value >= 50 && this.activDataId < this.rules.tab.length-1 && !this.isTouched){
         this.activDataId = this.activDataId + 1;
         this.isTouched = true;
@@ -36,7 +37,7 @@ export class RulesPage implements OnInit {
     });
   }
 
-  ngOnDestroy(){
+  ionViewWillLeave(){
     this.obs.unsubscribe();
   }
 
