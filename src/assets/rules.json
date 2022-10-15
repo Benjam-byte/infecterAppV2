@@ -1,24 +1,33 @@
 {
   "tab" : [
     {
-      "titre": "bhdsjhojodsf",
-      "texte": " pokjspoifopdskf",
+      "titre": "Moyen",
+      "texte": " Pour une partie optimale un groupe d'une douzaine d'invidu minimum est nécéssaire ( bien que vous pourriez facilement inventer votre propre variante ). Il est aussi  important de delimiter un espace de jeux avec une zone de conseil et une zone pour se coucher.",
       "state": false
     },
     {
-      "titre": "bhdsjhojodsf",
-      "texte": " pokjspoifo44561561561561651pdskf",
+      "titre": "But du jeux",
+      "texte": " Il y a deux camps, les mutant et les passagers. Les mutants doivent contaminé l'ensemble des passagers Les passagers doivent vacciné le mutant originel (uniqument celui-ci) ",
       "state": false
     },
     {
-      "titre": "bateau a gpgpf",
-      "texte": " pokjspoifo44561561561561651pdskf",
+      "titre": "Deroulement",
+      "texte": "Une fois les roles distribuer se separer en petite equipe de quatre. Lors des votes une petite equipe possede un vote et une voix (afin d'eviter les debats trop long). Puis lancer la premiere nuit ! Lors de la nuit tous les membres de l'équipage vont se cacher et ferme les yeux ! Seul les mutant peuvent se déplacer et contamine une personne par mutant par nuit ! Une nuit dure 2min (bouton jouer). Lors du jour une réunion de 2min en petite equipe (histoire de débriefer avec les potos)  avant le conseil.",
       "state": false
     },
     {
-      "titre": "bles mantes religeuses",
-      "texte": " pokjspoifo44561561561561651pdskf",
+      "titre": "Conseil",
+      "texte": "Un conseil se déroule en plusieurs tours. Premier le tour d'accusation chaque equipe choisis une personne pour argumenter rapidement une victime a vacciné les autres n'ont pas le droit de réagir. Une fois que toutes les equipes ont accusé ont passe au vote une equipe un vote en cas d'égalité on recommence depuis le tour des accusations",
+      "state": false
+    },
+    {
+      "titre": "Vaccination",
+      "texte": "Personne ne meurt jamais, Le conseil permet d'atribuer une dose de vaccin a un individu. Le vaccin si il n'est pas infecté ne fais rien. Et si l'individu est infécté alors le voila soigner. Seulement ce soin le fatigue tellement qu'il tombe au sol pour indiqué aux autres qu'il etait infecté et ne pourras parler avant le prochain conseil. Il existe deux type de vaccin, le normal et le turbo. On utilise soit l'un soit l'autre. Le normal est disponible une fois par conseil, si il touche un infecté alors celui est soigné et doit s'effondrer sans pouvoir parler jusqu'au prochain conseil. Si il touche un non infecté il ne se passe rien. Le turbo quant a lui est utilisable une seul fois dans la partie, fonctionne quasiment comme le précedent simplement si l'on vaccine un infecté alors il est de nouveau dans le même conseil reutilisable. Il faut alors refaire un tour de vote. ",
       "state": false
     }
-  ]
+  ],
+  "asupprimer" : " <Card elementVisible = {false} title='3. Histoire' text='Vous etes en croisiere autour de la terre au sein du vaisseaux spatial xK200. l'alarme du vaisseau retentis. Le capitaine explique alors qu'un virus transformant les humains en zombie decime actuellement la terre. Il decide donc de faire réaliser a tous les passagers un bilan sanguin.'></Card><Card elementVisible = {false} title='5. Role ' text='Passagers il souhaite vacciné le mutant originel et cherche a se cacher le mieux possible. Mutant originel il cherche a contaminé l'ensemble des passagers. Mutant contaminé plus tard par l'originel ou un autre il cherche a contaminé l'ensemble des passagers. Capitaine (le maire et le MJ) ?? '></Card><Card elementVisible = {false} title='11. Remarque' text='La partie s'arrete si le mutant originel est vaciné (et uniquement lui). Le turbo vaccin est sencé etre la technique final des passager pour remonter jusqu'a l'orginel. Il n'y a aucune raison de se fier a sa petite equipe. Une fois vacciné si les infecté ne vous reinfecte pas alors vous pouvez donner le nom des personnes que vous avez vu la nuit en tant qu'infecté. N'ouvrez pas les yeux quant on vous touche. Les positions des individus pendant la nuit ainsi que les bruits sont de trés bon indices'></Card><Card elementVisible = {false} title='12. Variante  '' text='Si votre groupe est trop grand (>30) possibilité de commencer à 2 mutant originel. Voici deux roles a ajouter pour equilibrer si probleme il y a. Si les mutants sont trop fort le rôle des infermiers de bord peut etre ajouter (bouton jouer). C'est comme des passagers mais la première fois qu'un mutant les touches il le vaccine directement pendant la nuit (le mutant vacciner ne pourrais pas parler au vote du village car fatigue ) si c'est le mutant originel alors il n'aura muter personne et il ne se passe rien. Ce pouvoir est disponible qu'une seul fois par partie par individu. Si les mutant sont trop faible alors ajouter trois/quatre medecin de bord seul indiivdu a pouvoir administrer le turbo vaccin. Ils sont bien evidemment contaminable et leur role leurs est revelé lors du bilan sanguin (bouton jouer)'></Card>"
 }
+
+
+

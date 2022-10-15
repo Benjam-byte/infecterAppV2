@@ -1,9 +1,11 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>selectPartyParam</ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<app-wm-logo></app-wm-logo>
 <ion-content>
-
+  <app-line-selector (valParam)="updateNuit($event)" [borne]="{min:0,max:10}" name="Durée des nuits" [value]="param.dureenuit"></app-line-selector>
+  <app-line-selector (valParam)="updateNbJoueurs($event)" [borne]="{min:0,max:60}" name="Joueurs" [value]="param.nbjoueurs"></app-line-selector>
+  <div class="panel">
+    <app-param-selector (valParam)="updateNbGentil($event)" [name]="'Voyageurs'" [valMax]="param.nbjoueurs-param.nbmechant" [value]="param.nbgentil"></app-param-selector>
+    <app-param-selector (valParam)="updateNbMechant($event)" [name]="'Mutants'" [valMax]="param.nbjoueurs-param.nbgentil" [value]="param.nbmechant"></app-param-selector>
+    <div style="display: flex;justify-content: center;align-items: center;font-size: 100%;font-weight: bold;"><p>...</p></div>
+  </div>
+  <div style="display: flex;justify-content: center;align-items: center"><app-button (click)="navigateTo()" [text]="'SUIVANT'"></app-button></div>
 </ion-content>

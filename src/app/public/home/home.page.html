@@ -2,8 +2,11 @@
   <div id="logo">
     <ion-icon id="test" size="large" name="ellipsis-vertical-circle-outline" (click)="navTo('param')"></ion-icon>
   </div>
-  <div id="second">
-    <app-button text="JOUER" (newClick)="navTo('select-party-param')"></app-button>
-    <app-button text="REGLES" (newClick)="navTo('rules')"></app-button>
+  <div id="box" class="second">
+    <img src="assets/pirate.png">
+    <div class="second">
+      <app-button text="JOUER" (newClick)="navTo('select-party-param')"></app-button>
+      <app-button text="REGLES" (newClick)="navTo('rules')"></app-button>
+    </div>
   </div>
 </ion-content>

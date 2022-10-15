@@ -26,13 +26,12 @@ export class RulesPage implements OnInit {
   ngOnInit() {
     this.rules = rules;
     this.obs = this.gestureService.getObsDelta().subscribe(value => {
-      console.log('nsm');
-      if(value >= 50 && this.activDataId < this.rules.tab.length-1 && !this.isTouched){
+      if(value >= 50 && this.activDataId < this.rules.tab.length-1 && this.isTouched){
         this.activDataId = this.activDataId + 1;
-        this.isTouched = true;
-      }else if(value <= -50 && this.activDataId > 0 && !this.isTouched){
+        this.isTouched = false;
+      }else if(value <= -50 && this.activDataId > 0 && this.isTouched){
         this.activDataId = this.activDataId -1;
-        this.isTouched = true;
+        this.isTouched = false;
       }
     });
   }

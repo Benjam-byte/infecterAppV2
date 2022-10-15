@@ -1,0 +1,4 @@
+<div scroll-x="false">
+  <p>{{name}} :{{param}} </p>
+  <input type="range" [min]="borne.min" [max]="borne.max" [(ngModel)]="param" (ngModelChange)="valueChanged()">
+</div>
